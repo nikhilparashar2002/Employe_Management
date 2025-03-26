@@ -1,11 +1,12 @@
 import './App.css'
+import Login from './components/Auth/Login'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-green-600'>EMS</h1>
+      <Login/>
     </>
   )
 }
